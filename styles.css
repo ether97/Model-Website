@@ -1,0 +1,306 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url(Screenshot\ 2022-03-10\ at\ 23-34-18\ 𝑆𝑎𝑣𝑒𝑟𝑖𝑜\ 𝐶𝑎𝑛𝑢\ ✨\ \(@dirtysabbyo\)\ •\ Instagram\ photos\ and\ videos.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 820px;
+    
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 5.5%;
+    padding-right: 8%;
+}
+
+.logo {
+    color: red;
+    height: 50px;
+    width: 50px;
+}
+
+span {
+    color: red;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px  45px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: red;
+    transition: .1s;
+}
+
+.btn {
+    background-color: red;
+    color: black;
+    text-decoration: none;
+    border: 2px solid red;
+    font-weight: bold;
+    padding: 10px 25px;
+    margin-left: 550px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 148px;
+    transform: translateY(-50%);
+}
+
+.content h2 {
+    font-size: 7em;
+    margin-bottom: 50px;
+}
+
+h1 {
+    color: black;
+    font-size: 55px;
+}
+
+h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    color: #fcfcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.newsletter form {
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.newsletter form input:first-child {
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #f9004d;
+    outline: none; 
+    border-radius: 30px;
+    margin-left: 180px;
+}
+
+.newsletter form input:last-child {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: 2px solid black;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    top: 4px;
+    right: -176px;
+    font-weight: bold;
+    transition: transform .4s;
+}
+
+.newsletter form input:last-child:hover {
+    background-color: transparent;
+    border: 2px solid black;
+    cursor: pointer;
+    color: black;
+}
+
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+
+.about img {
+    height: auto;
+    width: 430px;
+}
+
+.about-text {
+    width: 550px;
+}
+
+.main {
+    max-width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.about-text h2 {
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    transition: 0s;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+.service {
+    background: white;
+    width: 100%;
+    padding: 100px 0px;
+} 
+
+.title h2 {
+    color: black;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%;
+    align-items: center;
+    min-height: 400px;
+    margin: 0 auto;
+}
+
+.card {
+    height: 450px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #4d4d4d;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    scale: 1.05;
+}
+
+.svg {
+    height: 80px;
+    width: 80px;
+    padding: 20px;
+    color: red;
+}
+
+.card h5 {
+    color: black;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.card p {
+    color: white;
+    margin-bottom: 35px;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    border: 2px solid black;
+    background: black;
+    padding: 10px;
+    transform: transition .4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: transparent;
+}
+
+.contact-me {
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-me p {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.button-two {
+    text-decoration: none;
+    color: red;
+    border: 2px solid white;
+    padding: 20px 50px;
+    transform: transition 1s;
+    font-weight: bold;
+}
+
+.button-two:hover {
+    background-color: white;
+}
